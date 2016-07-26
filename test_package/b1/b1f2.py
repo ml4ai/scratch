@@ -1,3 +1,3 @@
-from .. import b2
+from test_package.b2 import b2f1
 
-b2.b2f1_hello()
+b2f1.b2f1_hello()
