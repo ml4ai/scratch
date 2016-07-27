@@ -1,6 +1,6 @@
 # Python Package / Module reference examples
 
-Example of using __init__.py to allow for relative package/module 
+Example of using \__init\__.py to allow for relative package/module 
 path references 
 
 root1.py contains a function hello() that sets off a chain of calls to 
