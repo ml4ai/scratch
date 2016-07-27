@@ -6,11 +6,11 @@ path references
 root1.py contains a function hello() that sets off a chain of calls to 
 other functions, in this order, demonstrating the ability of call from 
 a function to other functions:
-    root1.hello()
-    dir1.d1f1.hello()
-    dir2.d2f1.hello()
-    dir1.dir1_1.d1_1f1.hello()
-    dir2.d2f2.hello()
+- root1.hello()
+- dir1.d1f1.hello()
+- dir2.d2f1.hello()
+- dir1.dir1_1.d1_1f1.hello()
+- dir2.d2f2.hello()
 
 On the other hand, you can execute dir1.dir1_1.d1_1f2.py as a 
 standalone and it will call: dir2.d2f2.hello()
